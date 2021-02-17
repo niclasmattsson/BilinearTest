@@ -184,7 +184,7 @@ function runmodel()
     println("\n\nSolve status: ", termination_status(LPtown))
     println("\nObjective [Mkr]: ", objective_value(LPtown))
     println("CO2emissions [Mton CO2/year]: ", value(CO2emissions))
-    println("Reduced costs CO2emissions [kr/ton CO2]: ", reduced_cost(CO2emissions))
+    # println("Reduced costs CO2emissions [kr/ton CO2]: ", reduced_cost(CO2emissions))
 
     return nothing
 end
