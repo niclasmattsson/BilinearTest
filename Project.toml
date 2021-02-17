@@ -1,0 +1,9 @@
+name = "BilinearTest"
+uuid = "c90e3e7a-32f6-4d70-a5f7-0ec4d807ceee"
+authors = ["Niclas Mattsson <niclas.mattsson@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Gurobi = "2e9cd046-0924-5485-92f1-d5272153d98b"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
