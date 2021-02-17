@@ -147,7 +147,8 @@ end
 
 function makemodel()
     model = Model(Gurobi.Optimizer)
-    
+    set_optimizer_attributes(model, "Threads" => 4, "NonConvex" => 2)
+
     params = makeparameters()
     vars = makevariables(model, params)
     constraints = makeconstraints(model, vars, params)
